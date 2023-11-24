@@ -5,3 +5,4 @@ class Cat():
 
     def played_with_cat(self):
         self.played_with = True
+    
