@@ -18,3 +18,8 @@ class CatBasket():
             if cat.played_with == False:
                 played_cats.append(cat)
         return played_cats
+    
+    def play_with_all_cats(self):
+        for cat in self.basket:
+            cat.played_with = True
+ 
