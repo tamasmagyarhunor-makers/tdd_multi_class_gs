@@ -19,3 +19,14 @@ def test_cat_instantiates_with_played_with_to_false_property():
     expected = False
     # assertion
     assert actual == expected
+
+def test_cat_can_set_played_with_to_true():
+     # setup / scenario
+    cat = Cat('Garfield')
+
+    # action
+    cat.played_with_cat()
+    actual = cat.played_with
+    expected = True
+    # assertion
+    assert actual == expected
